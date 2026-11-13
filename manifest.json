@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Kick Auto-Claim by Leviaria",
+  "version": "1.0.1",
+  "description": "Automatically claim eligible Kick daily rewards, event rewards and drops while Kick is open.",
+  "author": "Leviaria",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Kick Auto-Claim by Leviaria"
+  },
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://kick.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle",
+      "all_frames": false,
+      "world": "ISOLATED"
+    }
+  ]
+}

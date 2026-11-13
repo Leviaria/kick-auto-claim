@@ -1,0 +1,24 @@
+* { box-sizing: border-box; }
+body { width: 360px; margin: 0; padding: 24px; background: #111315; color: #f2f3f4; font: 14px/1.5 system-ui, sans-serif; }
+header { display: flex; gap: 12px; align-items: center; }
+.brand { font-size: 10px; letter-spacing: 2px; color: #a6b0a5; font-weight: 600; }
+h1 { font-size: 20px; font-weight: 600; letter-spacing: -.5px; margin: 2px 0; }
+h2 { font-size: 11px; font-weight: 600; color: #969da4; margin: 0 0 10px; }
+.intro { color: #969da4; margin: 18px 0 22px; font-size: 13px; }
+section { border: 1px solid #2b3034; border-radius: 8px; margin-top: 12px; padding: 6px 14px; }
+label { display: flex; justify-content: space-between; align-items: center; padding: 13px 0; cursor: pointer; }
+label + label { border-top: 1px solid #252a2e; }
+.master { background: #1a211c; border: 1px solid #364639; padding: 14px; border-radius: 8px; font-weight: 500; }
+input { appearance: none; width: 36px; height: 21px; border-radius: 20px; background: #41474c; position: relative; margin: 0; cursor: pointer; flex-shrink: 0; }
+input::before { content: ''; position: absolute; width: 15px; height: 15px; border-radius: 50%; background: #eff1f2; top: 3px; left: 3px; }
+input:checked { background: #92bd83; }
+input:checked::before { left: 18px; background: #172016; }
+input:disabled { opacity: .5; cursor: wait; }
+input:focus-visible, a:focus-visible { outline: 2px solid #b2d8a5; outline-offset: 4px; }
+.status { padding: 16px; background: #16191c; }
+.status p { margin: 5px 0; color: #c4c9ce; font-size: 12px; overflow-wrap: anywhere; }
+footer { font-size: 11px; color: #949ca3; margin-top: 20px; }
+footer a { display: block; width: fit-content; color: #c3d9bb; margin-top: 14px; text-underline-offset: 3px; }
+footer span { display: block; margin-top: 18px; padding-top: 14px; border-top: 1px solid #272c30; font-size: 10px; }
+#error { color: #efb5ac; font-size: 12px; }
+#error:empty { display: none; }

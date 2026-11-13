@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Leviaria Auto-Claim</title><link rel="stylesheet" href="popup.css"></head>
+<body><header><img src="icons/icon-48.png" alt="" width="40" height="40"><div><span class="brand">LEVIARIA</span><h1>Kick Auto-Claim</h1></div></header>
+<p class="intro">Claim eligible rewards while you watch.</p>
+<label class="master">Auto-claim enabled<input id="enabled" type="checkbox" role="switch"></label>
+<section aria-label="Reward settings"><label>Daily rewards<input id="daily" type="checkbox" role="switch"></label><label>Event rewards<input id="events" type="checkbox" role="switch"></label><label>Drops<input id="drops" type="checkbox" role="switch"></label></section>
+<section class="status" aria-live="polite"><h2>Current tab</h2><p id="status">Checking Kick connection...</p><p id="reward"></p><p id="next"></p></section>
+<p id="error" role="alert"></p><footer>Keep a signed-in Kick tab open. Only eligible rewards are claimed. An in-flight claim may finish after pausing.<br><a href="https://kick.com/" target="_blank" rel="noopener noreferrer">Open Kick</a><span>By Leviaria | v1.0.1</span></footer>
+<script src="popup.js"></script></body></html>
