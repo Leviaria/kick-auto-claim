@@ -1,8 +1,12 @@
 # Kick Auto-Claim
 
+<img width="591" height="295" alt="image" src="https://github.com/user-attachments/assets/5eef6b4b-620a-4299-bc78-f14d5b2b9e62" />
+
 A Chrome/Brave extension that claims eligible daily rewards, event rewards and drops on Kick.
 
 Keep a signed-in Kick tab open. The extension checks your progress and submits a claim when a reward is ready. Daily rewards, events and drops can each be switched off in the popup.
+
+[Download version 1.0.1](https://github.com/Leviaria/kick-auto-claim/releases/download/1.0.1/kick-auto-claim-1.0.1.zip)
 
 ## Installation
 
